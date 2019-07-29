@@ -15,9 +15,9 @@ Rolls = 100
 output = []
 
 
+
 def countList(lst, x):
     return sum(x in item for item in lst)
-
 
 # generate a dataset of random rolls
 for i in range(0, Rolls):
@@ -26,6 +26,7 @@ for i in range(0, Rolls):
     output.append(x)
     output.append(s)
 
-# return number of rolls with N success
+# return number of rolls with N success#
 print(countList(output, "Success"))
 
+#Collections.frequency(countList, 125);
