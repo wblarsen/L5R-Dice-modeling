@@ -14,8 +14,6 @@ TN = 1
 Rolls = 100
 output = []
 
-
-
 def countList(lst, x):
     return sum(x in item for item in lst)
 
